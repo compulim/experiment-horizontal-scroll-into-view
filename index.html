@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Horizontal scroll into view</title>
+    <style type="text/css">
+      body {
+        align-items: center;
+        background-color: #f7f7f7;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        margin: 0;
+      }
+
+      .scroll-view {
+        background-color: white;
+        border: solid 1px #eee;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        gap: 10px;
+        overflow-x: scroll;
+        padding: 10px;
+        width: 320px;
+      }
+
+      .card {
+        border: solid 1px #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        gap: 10px;
+        height: 320px;
+        padding: 10px;
+        width: 240px;
+      }
+
+      .footnote {
+        color: #666;
+        font-family: sans-serif;
+        font-size: smaller;
+        width: 320px;
+      }
+
+      kbd {
+        background-color: white;
+        border: solid 1px #ccc;
+        border-radius: 5px;
+        font-size: initial;
+        padding: .1em .3em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="scroll-view">
+      <div class="card">
+        <div>This is the first card.</div>
+        <button type="button">Submit</button>
+        <input placeholder="Type something" type="text" />
+      </div>
+      <div class="card">
+        <div>This is the second card.</div>
+        <button type="button">Submit</button>
+        <input placeholder="Type something" type="text" />
+      </div>
+      <div class="card">
+        <div>This is the third card.</div>
+        <button type="button">Submit</button>
+        <input placeholder="Type something" type="text" />
+      </div>
+    </div>
+    <div class="footnote">
+      <p>Press <kbd>TAB</kbd> key to focus on the widgets and note how the browser scroll focused into view..</p>
+      <p>
+        On Chrome 103 and Edge 105:
+        <ul>
+          <li>Focusing on button will scroll into view if and only if the button is completely offscreen</li>
+          <li>Focusing on textbox will always scroll into view</li>
+        </ul>
+      </p>
+      <p>
+        On Firefox 103:
+        <ul>
+          <li>Unless widgets are completely offscreen, they will not be scrolled into view</li>
+        </ul>
+      </p>
+      <p>Also note, focusing by mouse click will not scroll widgets into view.</p>
+    </div>
+  </body>
+</html>
