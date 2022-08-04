@@ -59,9 +59,9 @@ Try the [live demo here](https://compulim.github.io/experiment-horizontal-scroll
 
 ## Conclusions
 
-All modern browsers will scroll widgets into the view if they are completely off-screen.
+All modern browsers will scroll widgets into the view if they are completely off-screen. Partially off-screen widgets are generally not scrolled into the view.
 
-However, when the widgets is a text box and is partially off-screen, Chrome and Edge will scroll them into the view. And Firefox and Safari will not.
+However, if the partially off-screen widgets is a text box, Chrome and Edge will scroll them into the view. And Firefox and Safari will not scroll.
 
 ## Recordings
 
