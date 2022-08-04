@@ -6,6 +6,10 @@ Try the [live demo here](https://compulim.github.io/experiment-horizontal-scroll
 
 ## Experiment result
 
+✔️ indicates browser will scroll widget into the view when focus by <kbd>TAB</kbd>.
+
+❌ indicates browser will not scroll widget into the view when focus by <kbd>TAB</kbd>.
+
 <table>
    <thead>
       <tr>
