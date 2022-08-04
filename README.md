@@ -72,3 +72,7 @@ https://user-images.githubusercontent.com/1622400/182949928-59faae63-fa57-4e92-8
 ### Firefox 103
 
 https://user-images.githubusercontent.com/1622400/182951598-6f3c06dc-de8b-41d9-a31b-07a57162499b.mp4
+
+## Credits
+
+Patterns are from https://heropatterns.com/, under CC BY 4.0.
