@@ -57,6 +57,12 @@ Try the [live demo here](https://compulim.github.io/experiment-horizontal-scroll
 
 > Note: For Safari, we use <kbd>OPTION</kbd> + <kbd>TAB</kbd> to focus on `<button>`.
 
+## Conclusions
+
+All modern browsers will scroll widgets into the view if they are completely off-screen.
+
+However, when the widgets is a text box and is partially off-screen, Chrome and Edge will scroll them into the view. And Firefox and Safari will not.
+
 ## Recordings
 
 ### Edge 105
